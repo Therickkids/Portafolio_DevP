@@ -86,3 +86,13 @@ body{
     transform: translateX(-50%); /* Centra los botones horizontalmente */
     
   }
+
+ .btnN{
+    display: flex;
+  
+    position: fixed; /* Los botones estarán fijos en la parte superior */
+    top: 20px; /* Coloca los botones cerca de la parte superior */
+    left: 80%;
+    transform: translateX(-50%); /* Centra los botones horizontalmente */
+
+  }
