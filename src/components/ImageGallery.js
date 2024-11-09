@@ -39,7 +39,12 @@ const ImageGallery = () => {
   };
 
   const goToHome = () => {
-    navigate('/image'); // Redirige a la ruta de Home
+    navigate('/image'); // Redirige a api
+  };
+
+  
+  const goToAstronauta = () => {
+    navigate('/mycomponent'); // Redirige a api
   };
 
   return (
@@ -60,6 +65,7 @@ const ImageGallery = () => {
         <Modal image={selectedImage} onClose={closeModal} />
       )}
       <button className='btnA' onClick={goToHome}>ASTRONOMY </button> {/* Botón para navegar a la Api Astronomia*/}
+         <button className='btnN' onClick={goToAstronauta}>ASTRONAUTAS </button> {/* Botón para navegar a la Api Astronautas*/}
       <video className="back" muted autoPlay loop playsInline>
               <source src="./sisSolar.mp4" type="video/mp4" />
               Tu navegador no soporta el video.
