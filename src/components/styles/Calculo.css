@@ -1,0 +1,101 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  
+
+
+  video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1; /* Coloca el video detrás del contenido */
+   
+  }
+  .txtP{
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 2rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-top: 100px; /* Espacio suficiente para que el texto no se sobreponga */
+    animation: typing 4.5s steps(40, end), blink-caret .75s step-end infinite;
+    letter-spacing: .15em; /* Adds some spacing for readability */
+    overflow: hidden; /* Ensures text stays within bounds */
+    white-space: nowrap;
+    
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+    border-radius: 8px;
+    left: 400px;
+    border-radius: 30px;
+  }
+  
+ 
+  .planet-info {
+    margin: 40px 0;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 40;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-top: 100px; /* Espacio suficiente para que el texto no se sobreponga */
+    animation: typing 4.5s steps(40, end), blink-caret .75s step-end infinite;
+    letter-spacing: .15em; /* Adds some spacing for readability */
+    overflow: hidden; /* Ensures text stays within bounds */
+    white-space: nowrap;
+
+  }
+  
+  .planet-selector{
+    font-size: 1.3rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    
+  }
+  
+.back{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+.acce
+{
+font-size: xx-small;
+position:absolute;
+top: 630px;
+right: 100px;
+}
