@@ -18,7 +18,7 @@ const goToHome = () =>{
   return (
     <footer className='body'>
             <h1>Julian Manrique Cuervo </h1>
-        <p>© 2023 My React App</p>
+        <p>© 2024 My React App</p>
         <button className="btn" onClick={goToHome}>Home</button>
         
         </footer>
