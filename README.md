@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-RECUERDA PRIMERO USAR NPM I Y DESPUES...
+RECUERDA PRIMERO USAR NPM i Y DESPUES...
 
 ### `npm start`
 
