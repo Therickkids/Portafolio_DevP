@@ -2,7 +2,6 @@
   "name": "sbs_interface",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://therickkids.github.io/Portafolio_DevP",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -43,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
