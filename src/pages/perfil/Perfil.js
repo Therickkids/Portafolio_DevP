@@ -25,10 +25,11 @@ const Perfil = () => (
           <li>C# (.NET)</li>
           <li>Arduino</li>
           <li>Base De Datos Mysql</li>
-          {/* Añade más habilidades o conocimientos aquí */}
+          {/* Añadir más habilidades o conocimientos aquí */}
         </ul>
       </section>
     </div>
+    <p className='acceP'> DEZLIZA HORIZONTALMENTE EL TOUCHPAD PARA SALIR </p>
   </div>
 );
 
