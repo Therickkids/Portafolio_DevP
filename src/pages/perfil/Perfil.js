@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../components/styles/Perfil.css';
+import '../../components/styles/Calculo.css';
 
 const Perfil = () => (
   <div className="perfil-wrapper">
